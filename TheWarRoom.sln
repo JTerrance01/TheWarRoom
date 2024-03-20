@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{382BFAF4-97E7-4071-9136-BE4B08E55900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{4A259719-E3CC-46F5-A99B-015471F5EC84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MixWarz.Service.Auth", "MixWarz.Service.Auth\MixWarz.Service.Auth.csproj", "{25F15D70-3547-4A71-A310-94C476DB32C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MixWarz.Web", "MixWarz.Web\MixWarz.Web.csproj", "{693CDA14-B9FD-48AF-B4CD-A2F0786644C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API Gateway", "API Gateway", "{9486AB8C-4493-44E4-994C-1DA7361402F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MixWarz.APIGatewaySolution", "MixWarz.APIGatewaySolution\MixWarz.APIGatewaySolution.csproj", "{4CB57DBC-7BB9-4621-88DD-7491A5696FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixWarz.Service.ProductAPI", "MixWarz.Service.ProductAPI\MixWarz.Service.ProductAPI.csproj", "{905ABD45-E880-4525-BD8F-3F506B4459CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F15D70-3547-4A71-A310-94C476DB32C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F15D70-3547-4A71-A310-94C476DB32C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F15D70-3547-4A71-A310-94C476DB32C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F15D70-3547-4A71-A310-94C476DB32C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693CDA14-B9FD-48AF-B4CD-A2F0786644C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693CDA14-B9FD-48AF-B4CD-A2F0786644C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693CDA14-B9FD-48AF-B4CD-A2F0786644C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693CDA14-B9FD-48AF-B4CD-A2F0786644C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB57DBC-7BB9-4621-88DD-7491A5696FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB57DBC-7BB9-4621-88DD-7491A5696FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB57DBC-7BB9-4621-88DD-7491A5696FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB57DBC-7BB9-4621-88DD-7491A5696FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905ABD45-E880-4525-BD8F-3F506B4459CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905ABD45-E880-4525-BD8F-3F506B4459CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905ABD45-E880-4525-BD8F-3F506B4459CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905ABD45-E880-4525-BD8F-3F506B4459CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25F15D70-3547-4A71-A310-94C476DB32C8} = {382BFAF4-97E7-4071-9136-BE4B08E55900}
+		{693CDA14-B9FD-48AF-B4CD-A2F0786644C2} = {4A259719-E3CC-46F5-A99B-015471F5EC84}
+		{4CB57DBC-7BB9-4621-88DD-7491A5696FC6} = {9486AB8C-4493-44E4-994C-1DA7361402F3}
+		{905ABD45-E880-4525-BD8F-3F506B4459CD} = {382BFAF4-97E7-4071-9136-BE4B08E55900}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB733691-1F13-45DF-8F6A-A3FC382C84A0}
+	EndGlobalSection
+EndGlobal
